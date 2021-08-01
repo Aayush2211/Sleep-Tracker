@@ -245,6 +245,24 @@ footer{
         left: 86vh;
     }
 
+@media(min-width:643px)and (max-width:799px){
+        #login-form{
+            left: 20%;
+        }
+        #add-time{
+            left: 20%;
+        }
+    }
+@media(min-width:100px)and (max-width:643px){
+        #login-form{
+            left: 20%;
+            width: 330px;
+        }
+        #add-time{
+            left: 20%;
+            width: 330px;
+        }
+    }
 
 #logout{
     position: absolute;
